@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SOP Wizard">
+<link rel="manifest" href="sopwizard__sopwizard__manifest.json">
+<link rel="icon" href="sopwizard__sopwizard__tcg-app-icon.png">
+<link rel="apple-touch-icon" href="sopwizard__sopwizard__tcg-app-icon.png">
+<link rel="stylesheet" href="sopwizard__sopwizard__styles.css?v=clean-22">
+<title>Create A New SOP | TCG SOP Wizard</title>
+<meta name="description" content="Create, save, and export a TCG Machines SOP.">
+</head>
+<body class="app-page create-page">
+  <div class="wizard-bg" aria-hidden="true"></div>
+  <header class="app-topbar back-topbar">
+    <a class="back-dashboard-btn" href="sopwizard__sopwizard__index.html">Back To Dashboard</a>
+  </header>
+  <main class="page-shell create-shell">
+    <section class="page-hero compact simple-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TCG SOP WIZARD</p>
+        <h1>Create A New SOP</h1>
+        <p>Start with the SOP details, then add step cards. Each card keeps its own instructions, photos, parts, and notes together.</p>
+      </div>
+    </section>
+
+    <form id="sopForm" class="sop-form" autocomplete="off">
+      <section class="glass-card details-card">
+        <div class="section-title-row">
+          <div><p class="eyebrow small">Step 1</p><h2>SOP Details</h2></div>
+          <span class="pill-note">Start here</span>
+        </div>
+        <div class="field-grid details-grid">
+          <label class="wide-field">SOP Title<input id="sopTitle" name="sopTitle" required placeholder="e.g., Scanner Back Wall Sub Assembly"></label>
+          <label>SOP Number<input id="sopNumber" name="sopNumber" placeholder="e.g., MFG0390_R01"></label>
+          <label>Main Assembly<select id="mainAssembly" name="mainAssembly"><option>SBX</option><option>CNV</option><option>CHS</option><option>OTHER</option></select></label>
+          <label>Date<input id="sopDate" name="sopDate" type="date"></label>
+          <label>Revision<input id="revision" name="revision" placeholder="R01"></label>
+          <label>SOP Author<input id="author" name="author" placeholder="Name"></label>
+          <label>Department<select id="department" name="department"><option>Assembly</option><option>Inventory</option><option>Pre Testing</option><option>Testing</option><option>Shipping & Receiving</option><option>R&D</option><option>Admin</option><option>Other</option></select></label>
+        </div>
+      </section>
+
+      <section class="steps-section">
+        <div class="steps-toolbar glass-card clean-steps-toolbar">
+          <div><p class="eyebrow small">Step 2</p><h2>Build Steps</h2><p>Add as many step cards as needed. Keep the build instructions simple and take photos right from the phone.</p></div>
+        </div>
+        <div id="stepsWrap" class="steps-wrap"></div>
+        <button type="button" class="add-wide" id="addStepBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg> Add Another Step</button>
+      </section>
+
+      <section class="glass-card export-card">
+        <div class="section-title-row">
+          <div><p class="eyebrow small">Final Step</p><h2>Save & Export</h2></div>
+          <span class="pill-note">Finish</span>
+        </div>
+        <p class="export-copy">Save a draft on this device, export the SOP as HTML, or use Print / Save PDF.</p>
+        <div class="action-bar export-actions" aria-label="SOP export options">
+          <button type="button" class="glow-btn" id="saveDraftBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2Z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg> Save Draft</button>
+          <button type="button" class="glow-btn" id="exportHtmlBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/><path d="M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg> Export HTML</button>
+          <button type="button" class="glow-btn" id="printPdfBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6"/><path d="M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"/><path d="M7 14h10v7H7Z"/></svg> Print / Save PDF</button>
+        </div>
+      </section>
+    </form>
+  </main>
+  <script src="sopwizard__sopwizard__app.js?v=clean-22"></script>
+</body>
+</html>

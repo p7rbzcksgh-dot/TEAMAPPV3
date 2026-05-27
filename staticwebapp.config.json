@@ -1,0 +1,13 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/*.{css,js,png,jpg,jpeg,webp,svg,mp3,pdf,docx,html,txt,json}"
+    ]
+  },
+  "mimeTypes": {
+    ".webp": "image/webp",
+    ".mp3": "audio/mpeg",
+    ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  }
+}

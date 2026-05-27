@@ -1,0 +1,29 @@
+prodapp__prodapp__FILE_LIST_v15.txt	805 bytes
+prodapp__prodapp__QA_CHECKS_v15.txt	787 bytes
+prodapp__prodapp__README_UPLOAD_ROOT_ONLY.txt	1494 bytes
+prodapp__prodapp__SBX_Pre_Testing_SOP_R01.docx	325855 bytes
+prodapp__prodapp__Shipping_and_Receiving_SOP_R01.pdf	2498115 bytes
+prodapp__prodapp__auth.js	178 bytes
+prodapp__prodapp__chassis_clickable_sop_dashboard.html	6859257 bytes
+prodapp__prodapp__company_policy_employee_forms.html	1281 bytes
+prodapp__prodapp__config.js	235 bytes
+prodapp__prodapp__conveyor_placeholder.html	1315 bytes
+prodapp__prodapp__dashboard-wizard-vibrant.webp	254574 bytes
+prodapp__prodapp__index.html	1209197 bytes
+prodapp__prodapp__inventory_value_stream.html	1591236 bytes
+prodapp__prodapp__manifest.json	417 bytes
+prodapp__prodapp__pretesting_clickable_sop_dashboard.html	2775376 bytes
+prodapp__prodapp__prod_team_weekly_schedule.html	1261 bytes
+prodapp__prodapp__scanner_main_assembly_clickable_sop_dashboard.html	7554419 bytes
+prodapp__prodapp__service-worker.js	465 bytes
+prodapp__prodapp__shipping_receiving_dashboard.html	732701 bytes
+prodapp__prodapp__staticwebapp.prodapp__prodapp__config.json	294 bytes
+prodapp__prodapp__tcg-app-icon.png	29340 bytes
+prodapp__prodapp__tcg-cogs-branding.png	54307 bytes
+prodapp__prodapp__tcg-logo-transparent.png	55851 bytes
+prodapp__prodapp__testing_dashboard.html	1915978 bytes
+- prodapp__prodapp__scanner_sub_assemblies.html
+- prodapp__prodapp__chassis_sub_assemblies.html
+- prodapp__prodapp__conveyor_sub_assemblies.html
+- prodapp__prodapp__future_sop_placeholder.html
+- prodapp__prodapp__password-success-judo.mp3

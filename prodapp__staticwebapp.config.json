@@ -1,0 +1,19 @@
+{
+  "navigationFallback": {
+    "rewrite": "/prodapp__prodapp__index.html",
+    "exclude": [
+      "*.html",
+      "*.js",
+      "*.json",
+      "*.png",
+      "*.jpg",
+      "*.jpeg",
+      "*.webp",
+      "*.pdf",
+      "*.docx"
+    ]
+  },
+  "mimeTypes": {
+    ".webmanifest": "application/manifest+json"
+  }
+}

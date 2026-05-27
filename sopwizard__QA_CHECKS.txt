@@ -1,0 +1,6 @@
+TCG SOP Wizard Clean 22
+- ZIP is flat.
+- TCG Machines logo moved upward at the bottom of the dashboard.
+- Manifest now requests portrait orientation for installed mobile/PWA app mode.
+- Mobile landscape fallback uses the portrait-style dashboard layout instead of the split landscape layout.
+- All Clean 21 dashboard/request/SOP functionality retained.

@@ -1,0 +1,22 @@
+QA CHECKS — v15
+prodapp__prodapp__index.html title present: YES
+prodapp__prodapp__index.html is actual dashboard plus passcode overlay: YES
+main dashboard images embedded in prodapp__prodapp__index.html: YES
+audio tags in prodapp__prodapp__index.html: 0
+mp3 references in prodapp__prodapp__index.html: 0
+speech synthesis references in prodapp__prodapp__index.html: 0
+audio-buttons.js included: False
+mp3 files included: NONE
+broken local references found: 0
+required pages included:
+ - prodapp__prodapp__inventory_value_stream.html: YES
+ - prodapp__prodapp__pretesting_clickable_sop_dashboard.html: YES
+ - prodapp__prodapp__shipping_receiving_dashboard.html: YES
+ - prodapp__prodapp__testing_dashboard.html: YES
+ - prodapp__prodapp__scanner_main_assembly_clickable_sop_dashboard.html: YES
+ - prodapp__prodapp__chassis_clickable_sop_dashboard.html: YES
+ - prodapp__prodapp__conveyor_placeholder.html: YES
+ - prodapp__prodapp__prod_team_weekly_schedule.html: YES
+ - prodapp__prodapp__company_policy_employee_forms.html: YES
+ - prodapp__prodapp__config.js: YES
+ - prodapp__prodapp__auth.js: YES

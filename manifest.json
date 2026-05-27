@@ -1,0 +1,48 @@
+{
+  "name": "TCG TEAMAPP",
+  "short_name": "TEAMAPP",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "teamapp-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "teamapp-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "PRODAPP",
+      "short_name": "PRODAPP",
+      "url": "prodapp__index.html",
+      "icons": [
+        {
+          "src": "prodapp-icon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "SOP WIZARD",
+      "short_name": "SOP",
+      "url": "sopwizard__index.html",
+      "icons": [
+        {
+          "src": "sop-wizard-icon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

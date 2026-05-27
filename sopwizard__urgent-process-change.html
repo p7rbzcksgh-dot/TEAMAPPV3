@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SOP Wizard">
+<link rel="manifest" href="sopwizard__sopwizard__manifest.json">
+<link rel="icon" href="sopwizard__sopwizard__tcg-app-icon.png">
+<link rel="apple-touch-icon" href="sopwizard__sopwizard__tcg-app-icon.png">
+<link rel="stylesheet" href="sopwizard__sopwizard__styles.css?v=clean-22">
+<title>Urgent Process Change | TCG SOP Wizard</title>
+<meta name="description" content="Document urgent process changes and upload existing SOPs for updates.">
+</head>
+<body class="app-page request-page urgent-page" data-request-type="urgent">
+  <div class="wizard-bg" aria-hidden="true"></div>
+  <header class="app-topbar back-topbar">
+    <a class="back-dashboard-btn" href="sopwizard__sopwizard__index.html">Back To Dashboard</a>
+  </header>
+
+  <main class="page-shell request-shell">
+    <section class="page-hero compact simple-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TCG SOP WIZARD</p>
+        <h1>Urgent Process Change</h1>
+        <p>Record urgent changes, upload an existing SOP, and edit the loaded SOP text or change notes before exporting the request.</p>
+      </div>
+    </section>
+
+    <section class="glass-card request-controls">
+      <div>
+        <p class="eyebrow small">Change Control</p>
+        <h2>Urgent Requests</h2>
+      </div>
+    </section>
+
+    <form id="requestForm" class="request-form" autocomplete="off">
+      <div id="requestList" class="request-list"></div>
+      <button type="button" class="add-wide request-add-bottom" data-add-request>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg> Add Urgent Change
+      </button>
+      <section class="glass-card export-card">
+        <div class="section-title-row">
+          <div><p class="eyebrow small">Finish</p><h2>Save & Export</h2></div>
+        </div>
+        <p class="export-copy">Save this urgent change list on the device or export it as HTML/PDF for review.</p>
+        <div class="action-bar export-actions">
+          <button type="button" class="glow-btn" data-save-request-list>Save List</button>
+          <button type="button" class="glow-btn" data-export-request-list>Export HTML</button>
+          <button type="button" class="glow-btn" data-print-request-list>Print / Save PDF</button>
+        </div>
+      </section>
+    </form>
+  </main>
+  <script src="sopwizard__sopwizard__app.js?v=clean-22"></script>
+</body>
+</html>

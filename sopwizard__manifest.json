@@ -1,0 +1,66 @@
+{
+  "name": "TCG SOP Wizard",
+  "short_name": "SOP Wizard",
+  "description": "TCG Machines fillable SOP builder for sub-assembly documentation.",
+  "start_url": "./sopwizard__sopwizard__index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "sopwizard__sopwizard__tcg-app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "sopwizard__sopwizard__tcg-app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create A New SOP",
+      "short_name": "Create SOP",
+      "url": "sopwizard__sopwizard__create-sop.html",
+      "icons": [
+        {
+          "src": "sopwizard__sopwizard__tcg-app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Required SOPs",
+      "short_name": "Required",
+      "url": "sopwizard__sopwizard__required-sops.html",
+      "icons": [
+        {
+          "src": "sopwizard__sopwizard__tcg-app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Urgent Process Change",
+      "short_name": "Urgent",
+      "url": "sopwizard__sopwizard__urgent-process-change.html",
+      "icons": [
+        {
+          "src": "sopwizard__sopwizard__tcg-app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "orientation": "portrait",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "minimal-ui"
+  ]
+}
